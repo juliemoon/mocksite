@@ -1,0 +1,44 @@
+#services{
+  width:85%;
+}
+
+#biography{
+  width:85%;
+}
+
+#last{
+  max-width:100%;
+}
+
+#end{
+ text-align:right;
+ font-size:40px;
+ font-weight: 900;
+}
+
+.about img{
+  float:right;
+}
+
+.box{
+  border: 1px solid white;
+  background-color: #f4f4f4;
+}
+
+.intro{
+ font-size:40px;
+ font-weight: 900;
+}
+
+.services{
+  /* display:flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 100px 100px 100px; */
+}
+
+
+.title{
+  font-size:25px;
+  font-weight:900;
+}
